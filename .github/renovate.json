@@ -9,7 +9,7 @@
   ],
   "useBaseBranchConfig": "merge",
   "baseBranches": [
-    "dev"
+    "main"
   ],
   "major": {
     "dependencyDashboardApproval": true
