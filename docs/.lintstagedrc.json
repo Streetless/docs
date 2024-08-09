@@ -1,8 +1,0 @@
-{
-  "*.ts": "eslint",
-  "*.tsx": "eslint",
-  "*.md": "prettier --write",
-  "*.mdx": "prettier --write",
-  "*.js": "eslint",
-  "*.jsx": "eslint"
-}
