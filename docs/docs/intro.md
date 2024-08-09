@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Introduction
 
-Bienvenue sur la documentation d'**EnVRonment VR** !
+Bienvenue sur la documentation d'**EnVRonment** !
 
 :::warning
 

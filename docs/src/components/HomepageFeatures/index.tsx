@@ -1,55 +1,85 @@
 import clsx from "clsx";
 import Heading from "@theme/Heading";
 import styles from "./styles.module.css";
-import docusaurusMountain from "@site/static/img/undraw_docusaurus_mountain.svg";
-import docusaurusTree from "@site/static/img/undraw_docusaurus_tree.svg";
-import docusaurusReact from "@site/static/img/undraw_docusaurus_react.svg";
+import Link from "@docusaurus/Link";
 import Translate from "@docusaurus/core/lib/client/exports/Translate";
 
-type FeatureItem = {
+type DocumentationItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<"svg">>;
   description: JSX.Element;
 };
 
-const FeatureList: FeatureItem[] = [
+const DocumentationList: DocumentationItem[] = [
   {
-    title: "Easy to Use",
-    Svg: docusaurusMountain,
-    description: (
-      <Translate>
-        Docusaurus was designed from the ground up to be easily installed and used to get your website up and running
-        quickly.
-      </Translate>
-    ),
-  },
-  {
-    title: "Focus on What Matters",
-    Svg: docusaurusTree,
+    title: "API Documentation",
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go ahead and move your docs into the{" "}
-        <code>docs</code> directory.
+        <Translate>The API documentation of EnVRonment is available at the following URL:</Translate>{" "}
+        <Link to={"https://api.docs.envronment.com"}>
+          <Translate>https://api.docs.envronment.com</Translate>
+        </Link>
       </>
     ),
   },
   {
-    title: "Powered by React",
-    Svg: docusaurusReact,
+    title: "Frontend Documentation",
     description: (
-      <Translate>
-        Extend or customize your website layout by reusing React. Docusaurus can be extended while reusing the same
-        header and footer.
-      </Translate>
+      <>
+        <Translate>The Frontend documentation of EnVRonment is available at the following URL:</Translate>{" "}
+        <Link to={"https://frontend.docs.envronment.com"}>
+          <Translate>https://frontend.docs.envronment.com</Translate>
+        </Link>
+      </>
+    ),
+  },
+  {
+    title: "Landing Page Documentation",
+    description: (
+      <>
+        <Translate>The Landing Page documentation of EnVRonment is available at the following URL:</Translate>{" "}
+        <Link to={"https://landing.docs.envronment.com"}>
+          <Translate>https://landing.docs.envronment.com</Translate>
+        </Link>
+      </>
+    ),
+  },
+  {
+    title: "Editor Documentation",
+    description: (
+      <>
+        <Translate>The Editor documentation of EnVRonment is available at the following URL:</Translate>{" "}
+        <Link to={"https://editor.docs.envronment.com"}>
+          <Translate>https://editor.docs.envronment.com</Translate>
+        </Link>
+      </>
+    ),
+  },
+  {
+    title: "Editor Hub Documentation",
+    description: (
+      <>
+        <Translate>The Editor Hub documentation of EnVRonment is available at the following URL:</Translate>{" "}
+        <Link to={"https://editorhub.docs.envronment.com"}>
+          <Translate>https://editorhub.docs.envronment.com</Translate>
+        </Link>
+      </>
+    ),
+  },
+  {
+    title: "VR Documentation",
+    description: (
+      <>
+        <Translate>The Simulator documentation of EnVRonment is available at the following URL:</Translate>{" "}
+        <Link to={"https://vr.docs.envronment.com"}>
+          <Translate>https://vr.docs.envronment.com</Translate>
+        </Link>
+      </>
     ),
   },
 ];
 
-const Feature = ({ title, Svg, description }: FeatureItem) => (
+const DocumentationLink = ({ title, description }: DocumentationItem) => (
   <div className={clsx("col col--4")}>
-    <div className="text--center">
-      <Svg className={styles.featureSvg} role="img" />
-    </div>
     <div className="text--center padding-horiz--md">
       <Heading as="h3">{title}</Heading>
       <p>{description}</p>
@@ -57,13 +87,13 @@ const Feature = ({ title, Svg, description }: FeatureItem) => (
   </div>
 );
 
-export default function HomepageFeatures(): JSX.Element {
+export default function HomepageDocumentations(): JSX.Element {
   return (
     <section className={styles.features}>
       <div className="container">
         <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
+          {DocumentationList.map((props, idx) => (
+            <DocumentationLink key={idx} {...props} />
           ))}
         </div>
       </div>

@@ -4,16 +4,16 @@ import type * as Preset from "@docusaurus/preset-classic";
 import tabBlocks from "docusaurus-remark-plugin-tab-blocks";
 
 const organizationName = "Streetless";
-const repoName = "VR";
+const repoName = "docs";
 const githubLink = `https://github.com/${organizationName}/${repoName}/`;
-const projectName = "VR";
-const url = `https://${projectName}.docs.envronment.com`;
-const websiteID = process.env.UMAMI_WEBSITE_ID || "67eb9d85-7571-491c-9c40-3ea30ded6270";
+const projectName = "DA1";
+const url = `https://docs.envronment.com`;
+const websiteID = process.env.UMAMI_WEBSITE_ID || "23a3bb1b-d743-48d0-b08f-59a6efeb4f68";
 const analyticsDomain = process.env.UMAMI_DOMAIN || "umami.envronment.com";
 
 const config: Config = {
-  title: `${projectName} Documentation`,
-  tagline: `${projectName} Documentation`,
+  title: `${projectName}`,
+  tagline: `Technical Documentation`,
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
