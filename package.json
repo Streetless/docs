@@ -19,11 +19,11 @@
   "license": "Copyright",
   "packageManager": "pnpm@9.1.2",
   "devDependencies": {
-    "husky": "9.0.11",
+    "husky": "9.1.4",
     "@alwyn974/devmoji": "2.5.4",
-    "@commitlint/cli": "19.3.0",
+    "@commitlint/cli": "19.4.0",
     "@commitlint/config-conventional": "19.2.2",
-    "@commitlint/cz-commitlint": "19.2.0",
+    "@commitlint/cz-commitlint": "19.4.0",
     "commitizen": "4.3.0"
   }
 }
