@@ -19,7 +19,7 @@ const HomepageHeader = () => {
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link className="button button--secondary button--lg" to="/docs/intro">
-            <Translate>Getting started</Translate>
+            <Translate>Démarrer</Translate>
           </Link>
         </div>
       </div>
@@ -28,9 +28,8 @@ const HomepageHeader = () => {
 };
 
 export default function Home(): JSX.Element {
-  const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout title={`EnVRonment`} description={`Documentation for EnVRonment ${siteConfig.projectName}`}>
+    <Layout title={`EnVRonment`} description={`DA1 EnVRonment`}>
       <HomepageHeader />
       <main>
         <HomepageFeatures />

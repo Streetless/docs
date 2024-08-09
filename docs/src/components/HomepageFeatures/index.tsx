@@ -14,7 +14,7 @@ const DocumentationList: DocumentationItem[] = [
     title: "API Documentation",
     description: (
       <>
-        <Translate>The API documentation of EnVRonment is available at the following URL:</Translate>{" "}
+        <Translate>La documentation de l'API d'EnVRonment est disponible à cette addresse:</Translate>{" "}
         <Link to={"https://api.docs.envronment.com"}>
           <Translate>https://api.docs.envronment.com</Translate>
         </Link>
@@ -25,7 +25,7 @@ const DocumentationList: DocumentationItem[] = [
     title: "Frontend Documentation",
     description: (
       <>
-        <Translate>The Frontend documentation of EnVRonment is available at the following URL:</Translate>{" "}
+        <Translate>La documentation du Frontend d'EnVRonment est disponible à cette addresse:</Translate>{" "}
         <Link to={"https://frontend.docs.envronment.com"}>
           <Translate>https://frontend.docs.envronment.com</Translate>
         </Link>
@@ -36,7 +36,7 @@ const DocumentationList: DocumentationItem[] = [
     title: "Landing Page Documentation",
     description: (
       <>
-        <Translate>The Landing Page documentation of EnVRonment is available at the following URL:</Translate>{" "}
+        <Translate>La documentation de la Landing Page d'EnVRonment est disponible à cette addresse:</Translate>{" "}
         <Link to={"https://landing.docs.envronment.com"}>
           <Translate>https://landing.docs.envronment.com</Translate>
         </Link>
@@ -47,7 +47,7 @@ const DocumentationList: DocumentationItem[] = [
     title: "Editor Documentation",
     description: (
       <>
-        <Translate>The Editor documentation of EnVRonment is available at the following URL:</Translate>{" "}
+        <Translate>La documentation de l'Editeur d'EnVRonment est disponible à cette addresse:</Translate>{" "}
         <Link to={"https://editor.docs.envronment.com"}>
           <Translate>https://editor.docs.envronment.com</Translate>
         </Link>
@@ -58,7 +58,7 @@ const DocumentationList: DocumentationItem[] = [
     title: "Editor Hub Documentation",
     description: (
       <>
-        <Translate>The Editor Hub documentation of EnVRonment is available at the following URL:</Translate>{" "}
+        <Translate>La documentation de l'Editeur Hub d'EnVRonment est disponible à cette addresse:</Translate>{" "}
         <Link to={"https://editorhub.docs.envronment.com"}>
           <Translate>https://editorhub.docs.envronment.com</Translate>
         </Link>
@@ -69,7 +69,7 @@ const DocumentationList: DocumentationItem[] = [
     title: "VR Documentation",
     description: (
       <>
-        <Translate>The Simulator documentation of EnVRonment is available at the following URL:</Translate>{" "}
+        <Translate>La documentation du Simulateur d'EnVRonment est disponible à cette addresse:</Translate>{" "}
         <Link to={"https://vr.docs.envronment.com"}>
           <Translate>https://vr.docs.envronment.com</Translate>
         </Link>

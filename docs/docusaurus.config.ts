@@ -13,7 +13,7 @@ const analyticsDomain = process.env.UMAMI_DOMAIN || "umami.envronment.com";
 
 const config: Config = {
   title: `${projectName}`,
-  tagline: `Technical Documentation`,
+  tagline: `Documentation Technique`,
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
