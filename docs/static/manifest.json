@@ -1,6 +1,6 @@
 {
-  "short_name": "VR Docs",
-  "name": "EnVRonment VR Documentation",
+  "short_name": "DA1",
+  "name": "EnVRonment DA1",
   "icons": [
     {
       "src": "/img/logo.svg",
@@ -20,6 +20,6 @@
   "scope": "/",
   "theme_color": "#01BEFD",
   "shortcuts": [],
-  "description": "Documentation for EnVRonment VR",
+  "description": "EnVRonment DA1",
   "screenshots": []
 }
