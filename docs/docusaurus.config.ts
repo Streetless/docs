@@ -7,7 +7,8 @@ const organizationName = "Streetless";
 const repoName = "docs";
 const githubLink = `https://github.com/${organizationName}/${repoName}/`;
 const projectName = "DA1";
-const url = `https://docs.envronment.com`;
+const domain = `docs.envronment.com`;
+const url = `https://${domain}`;
 const websiteID = process.env.UMAMI_WEBSITE_ID || "23a3bb1b-d743-48d0-b08f-59a6efeb4f68";
 const analyticsDomain = process.env.UMAMI_DOMAIN || "umami.envronment.com";
 
@@ -127,7 +128,7 @@ const config: Config = {
         dataAutoTrack: true,
         dataDoNotTrack: true,
         dataCache: true,
-        dataDomains: url,
+        dataDomains: domain,
       },
     ],
   ],
