@@ -37,8 +37,8 @@ const DocumentationList: DocumentationItem[] = [
     description: (
       <>
         <Translate>La documentation de la Landing Page d'EnVRonment est disponible à cette addresse:</Translate>{" "}
-        <Link to={"https://landing.docs.envronment.com"}>
-          <Translate>https://landing.docs.envronment.com</Translate>
+        <Link to={"https://landing-page.docs.envronment.com"}>
+          <Translate>https://landing-page.docs.envronment.com</Translate>
         </Link>
       </>
     ),
