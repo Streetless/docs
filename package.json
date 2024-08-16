@@ -1,7 +1,7 @@
 {
   "name": "@envronment/root-docs",
   "version": "0.0.0",
-  "description": "Documentation for VR project of EnVRonment",
+  "description": "Documentation for all projects of EnVRonment",
   "scripts": {
     "docs:start": "cd docs && pnpm start",
     "docs:build": "cd docs && pnpm build",
