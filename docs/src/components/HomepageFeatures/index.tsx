@@ -59,8 +59,8 @@ const DocumentationList: DocumentationItem[] = [
     description: (
       <>
         <Translate>La documentation de l'Editeur Hub d'EnVRonment est disponible à cette addresse:</Translate>{" "}
-        <Link to={"https://editorhub.docs.envronment.com"}>
-          <Translate>https://editorhub.docs.envronment.com</Translate>
+        <Link to={"https://editor-hub.docs.envronment.com"}>
+          <Translate>https://editor-hub.docs.envronment.com</Translate>
         </Link>
       </>
     ),
