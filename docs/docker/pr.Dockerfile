@@ -1,4 +1,4 @@
-FROM node:20-alpine3.19@sha256:e0ea1e2299d3e4b214ba91a0c1b773f2369ba4ff39cb0b4d3000c2b72ee8334e as builder
+FROM node:20-alpine3.19@sha256:61e2d8da651b86774b20f244e44a5a796bb70c6b3021aa62db4f78127c906d9b as builder
 # Set Maintainer
 LABEL MAINTAINER="Alwyn Mattapullut <alwyn.mattapullut@epitech.eu>"
 # Set the working directory to /app
@@ -34,7 +34,7 @@ WORKDIR /app
 # Copy the build files from the builder stage
 COPY --from=builder /build/build/ ./
 
-FROM node:20-alpine3.19@sha256:e0ea1e2299d3e4b214ba91a0c1b773f2369ba4ff39cb0b4d3000c2b72ee8334e as app
+FROM node:20-alpine3.19@sha256:61e2d8da651b86774b20f244e44a5a796bb70c6b3021aa62db4f78127c906d9b as app
 # Set Maintainer
 LABEL MAINTAINER="Alwyn Mattapullut <alwyn.mattapullut@epitech.eu>"
 # Set the working directory to /app
