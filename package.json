@@ -19,7 +19,7 @@
   "license": "Copyright",
   "packageManager": "pnpm@9.7.1",
   "devDependencies": {
-    "husky": "9.1.4",
+    "husky": "9.1.5",
     "@alwyn974/devmoji": "2.5.4",
     "@commitlint/cli": "19.4.0",
     "@commitlint/config-conventional": "19.2.2",
