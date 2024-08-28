@@ -20,7 +20,7 @@
     "lint:staged": "lint-staged",
     "lint:fix": "pnpm lint --fix"
   },
-  "packageManager": "pnpm@9.8.0",
+  "packageManager": "pnpm@9.9.0",
   "dependencies": {
     "@dipakparmar/docusaurus-plugin-umami": "2.1.6",
     "@docusaurus/core": "3.5.2",
@@ -41,8 +41,8 @@
     "@docusaurus/module-type-aliases": "3.5.2",
     "@docusaurus/tsconfig": "3.5.2",
     "@docusaurus/types": "3.5.2",
-    "@typescript-eslint/eslint-plugin": "8.2.0",
-    "@typescript-eslint/parser": "8.2.0",
+    "@typescript-eslint/eslint-plugin": "8.3.0",
+    "@typescript-eslint/parser": "8.3.0",
     "eslint": "8.57.0",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-prettier": "5.2.1",
