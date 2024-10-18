@@ -17,7 +17,7 @@
   "keywords": [],
   "author": "Alwyn Mattapullut",
   "license": "Copyright",
-  "packageManager": "pnpm@9.12.1",
+  "packageManager": "pnpm@9.12.2",
   "devDependencies": {
     "husky": "9.1.6",
     "@alwyn974/devmoji": "2.5.4",
