@@ -9113,7 +9113,7 @@ function v35(name, version, hashfunc) {
   return generateUUID;
 }
 // EXTERNAL MODULE: external "crypto"
-var external_crypto_ = __webpack_require__(6982);
+var external_crypto_ = __webpack_require__(4601);
 var external_crypto_default = /*#__PURE__*/__webpack_require__.n(external_crypto_);
 ;// CONCATENATED MODULE: ./node_modules/.pnpm/uuid@9.0.1/node_modules/uuid/dist/esm-node/sha1.js
 
