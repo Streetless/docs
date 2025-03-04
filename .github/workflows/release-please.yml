@@ -17,3 +17,4 @@ jobs:
     with:
       target-branch: main
       use-root-gitflow: false
+      runs-on: 'ubuntu-latest'

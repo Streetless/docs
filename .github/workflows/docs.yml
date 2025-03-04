@@ -16,7 +16,7 @@ on:
   workflow_dispatch:
     inputs:
       deploy:
-        description: 'Deploy to coolify'
+        description: 'Deploy using pnpm run deploy'
         required: true
         type: boolean
 
@@ -32,3 +32,4 @@ jobs:
     with:
       deploy: ${{ github.event.inputs.deploy || true }}
       default-branch: main
+      runs-on: 'ubuntu-latest'
