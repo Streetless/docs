@@ -32,4 +32,4 @@ jobs:
     with:
       deploy: ${{ github.event.inputs.deploy || true }}
       default-branch: main
-      runs-on: 'ubuntu-latest'
+      runs-on: "['ubuntu-latest']"
