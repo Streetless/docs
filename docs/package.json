@@ -20,7 +20,7 @@
     "lint:staged": "lint-staged",
     "lint:fix": "pnpm lint --fix"
   },
-  "packageManager": "pnpm@9.15.7",
+  "packageManager": "pnpm@9.15.9",
   "dependencies": {
     "@dipakparmar/docusaurus-plugin-umami": "2.1.7",
     "@docusaurus/core": "3.7.0",
