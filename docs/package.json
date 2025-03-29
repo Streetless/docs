@@ -22,7 +22,7 @@
   },
   "packageManager": "pnpm@9.15.9",
   "dependencies": {
-    "@dipakparmar/docusaurus-plugin-umami": "2.1.7",
+    "@dipakparmar/docusaurus-plugin-umami": "2.2.0",
     "@docusaurus/core": "3.7.0",
     "@docusaurus/plugin-pwa": "3.7.0",
     "@docusaurus/preset-classic": "3.7.0",
