@@ -48,7 +48,7 @@
     "eslint-plugin-prettier": "5.5.4",
     "inquirer": "10.2.2",
     "lint-staged": "15.5.2",
-    "typescript": "5.9.2"
+    "typescript": "5.9.3"
   },
   "browserslist": {
     "production": [
